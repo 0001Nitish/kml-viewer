@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Placemark>
+      <name>LineString Example</name>
+      <LineString>
+        <coordinates>
+          -122.0822035425683,37.42228990140251,0
+          -122.085099072427,37.42200435639423,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>MultiLineString Example</name>
+      <MultiGeometry>
+        <LineString>
+          <coordinates>
+            -122.0822035425683,37.42228990140251,0
+            -122.085099072427,37.42200435639423,0
+          </coordinates>
+        </LineString>
+        <LineString>
+          <coordinates>
+            -122.085099072427,37.42200435639423,0
+            -122.087099072427,37.42200435639423,0
+          </coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+  </Document>
+</kml>
